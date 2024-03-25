@@ -8,7 +8,7 @@ const Logo = () => {
       className="uppercase text-xl font-bold flex items-center gap-2"
     >
       <NotebookPen className="text-indigo-600" />
-      <p className="text-indigo-600">Write It.</p>
+      <p className="text-indigo-600">WriteIt.</p>
     </Link>
   );
 };
