@@ -32,7 +32,7 @@ const LoginForm = () => {
       if (formResponse.success) {
         toast.success(formResponse.message);
         resetFormValues();
-        router.replace("/dashboard/overview");
+        router.replace("/dashboard/notes");
       } else {
         throw new Error(formResponse.message);
       }
